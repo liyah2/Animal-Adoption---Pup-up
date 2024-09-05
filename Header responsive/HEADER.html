@@ -1,0 +1,110 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animal Shelter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  
+    <link rel="stylesheet" href="style.css">
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+  <!---Header-->
+  <body>
+<header>
+
+<div class="topnav" id="myTopnav">
+  
+  <a href="index.html">
+        <div class="logo"><img src="pupup.png"></div> </a>
+  
+     <!-- <a href="index.html" >Home</a> -->
+  <a  href="clinic.html">Clinic</a>
+ <a  href="#Rescue">Rescue</a>
+ <a   href="#Volunteer">Volunteer</a>
+  
+  <a href="donate.html" class="donate-button"><span></span>Donate</a>
+  
+ <a href="javascript:void(0);" class="icon"  onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+
+</div>
+
+</header>
+    
+<main> 
+  <p> <H3>THIS IS A RESPONSIVE HEADER</H3>
+    TO SEE IT WORK RESIZE THE SCREEN<br>
+    <BR>
+      
+    I removed <br>
+    button:hover {
+      border: none;
+    }<br>
+    from CSS   <BR>
+      it made it look like elemants around the button moved,
+      <br>which is no bueno
+  </p><br>
+   
+
+  </main>
+
+
+<footer> 
+  
+  
+        <div class="icons">
+          <a href="https://facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a>
+           <a href="https://x.com" target="_blank">
+          <i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.youtube.com" target="_blank">
+             <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+
+  
+  <div class="footernav">
+<a href="index.html" >Home</a>
+  <a href="#Contact">Contact</a>
+ <a href="#About">About</a>
+    <a href="donate.html" >Donate</a>
+</div>
+  <div class="footerBottom">
+          <p>CopyRight &copy;2024; Designed by Group 4</p>
+        </div>
+    
+
+  </footer>
+  
+<!-- Toggle between adding and removing the "responsive" class 
+  to topnav when the user clicks on the icon 
+  (the hamburger menu goes down when clicked on a small screen) -->
+  <script> 
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script> 
+
+  
+  </body>
+  
+
+  
+</html> 
